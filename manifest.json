@@ -4,7 +4,10 @@
 	"version": "1.0.0",
 	"description": "Adds a button to YouTube thumbnails to allow you to quickly indicate that you're not interested.",
 	"icons": {
-		"48": "icon.png"
+		"16": "icons/16.png",
+		"32": "icons/32.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
 	},
 	"browser_specific_settings": {
 		"gecko": {
