@@ -1,15 +1,15 @@
 {
 	"manifest_version": 3,
-	"name": "YouTube Quick Dismiss",
+	"name": "YouTube Quick Curator",
 	"version": "1.0",
 	"description": "A basic Firefox extension using Manifest V3.",
 	"icons": {
-		"48": "icons/icon.png"
+		"48": "icon.png"
 	},
 	"action": {
 		"default_icon": "icons/icon.png",
 		"default_popup": "popup/popup.html",
-		"default_title": "YouTube Quick Dismiss"
+		"default_title": "YouTube Quick Curator"
 	},
 	"permissions": [
 		"storage",
