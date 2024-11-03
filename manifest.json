@@ -1,16 +1,16 @@
 {
 	"manifest_version": 3,
-	"extension_id": "683a2b43-e05f-4505-9491-ec0d99530eed",
 	"name": "YouTube Quick Curator",
-	"version": "1.0",
-	"description": "A basic Firefox extension using Manifest V3.",
+	"version": "1.0.0",
+	"description": "Adds a button to YouTube thumbnails to allow you to quickly indicate that you're not interested.",
 	"icons": {
 		"48": "icon.png"
 	},
-	"action": {
-		"default_icon": "icons/icon.png",
-		"default_popup": "popup/popup.html",
-		"default_title": "YouTube Quick Curator"
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{683a2b43-e05f-4505-9491-ec0d99530eed}",
+			"strict_min_version": "109.0"
+		}
 	},
 	"permissions": [
 		"storage",
